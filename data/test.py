@@ -104,7 +104,7 @@ def train(rank, world_size, args, use_cuda):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="PyTorch DDP ResNet50 AstraGo 워크로드 테스트용")
-    parser.add_argument('--epochs', type=int, default=100)
+    parser.add_argument('--epochs', type=int, default=10)
     parser.add_argument('--batch-size', type=int, default=64)
     parser.add_argument('--dataset-size', type=int, default=100)
     parser.add_argument('--lr', type=float, default=0.001)
